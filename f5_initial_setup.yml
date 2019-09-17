@@ -16,8 +16,8 @@
   connection: local
   gather_facts: no
   vars:
-    setup_user: "admin"
-    setup_pass: "admin"
+    setup_user: "root"
+    setup_pass: "Dilig3nt1!"
     
   tasks:
   - name: Get facts from CSV file
